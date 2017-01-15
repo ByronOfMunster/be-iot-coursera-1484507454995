@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: be-iot-coursera
+  host: be-iot-coursera
+  disk_quota: 1024M
+  services:
+  - be-iot-coursera-cloudantNoSQLDB
+  - be-iot-coursera-iotf-service
